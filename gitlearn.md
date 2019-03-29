@@ -19,3 +19,5 @@ git中暂存区是一个非常重要的概念，可以多次修改文件，并�
 git remote add origin git@github.com:chunyaZOU/gitlearn.git
 11. git push -u origin master 把本地仓库的所有内容推送到远程仓库  
 第一次推送加上-u参数，不但可以把本地推送到远程，还可以将远程与本地关联
+12. git clone xxxxxx 从远程克隆一个仓库
+13. git checkout -b dev 创建并切换分支相当于git branch dev + git checkout dev两条组合
