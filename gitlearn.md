@@ -23,3 +23,5 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 13. git checkout -b dev 创建并切换分支相当于git branch dev + git checkout dev两条组合
 14. git branch 查看当前分支
 15. git checkout branchName 切换分支  
+16. git merge branchName 合并指定分支到当前分支
+17. git branch -d branchName 删除指定分支
