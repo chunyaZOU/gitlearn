@@ -33,3 +33,4 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 22. git stash list 查看现场详情
 22. git stash apply 恢复现场，stash内容并不删除，需要git stash drop删除。可以使用git stash apply stash@{0} 恢复指定的stash
 23. git stash pop 恢复的同时把stash内容删了
+24. git branch -D branchName 强行删除一个没有合并过的分支
