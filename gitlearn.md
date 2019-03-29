@@ -21,3 +21,5 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 第一次推送加上-u参数，不但可以把本地推送到远程，还可以将远程与本地关联
 12. git clone xxxxxx 从远程克隆一个仓库
 13. git checkout -b dev 创建并切换分支相当于git branch dev + git checkout dev两条组合
+14. git branch 查看当前分支
+15. git checkout branchName 切换分支  
