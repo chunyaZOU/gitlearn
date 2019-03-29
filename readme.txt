@@ -7,3 +7,4 @@ git log 提交日志（该版本之前的提交，含该版本）
 git reflog 提交日志（全部版本）
 git log --pretty=oneline提交日志（单行只显示commit id）
 git reset --hard commitId（回到commitId版本）
+git checkout -- readme.txt 将工作区的修改全部撤销
