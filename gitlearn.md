@@ -29,4 +29,7 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 19. git log --graph 查看分支合并图
 20. git merge --no-ff -m "merge with noff" dev noff模式合并noff:no fast forward  
 加上--no-ff参数可以使用普通模式合并，合并历史有分支，能看出来曾经做过合并，ff则不能看出做过合并
-21. git stash 把当前工作现场储存起来，等以后恢复现场后继续工作
+21. git stash 把当前工作现场储存起来，等以后恢复现场后继续工作。可以多次stash
+22. git stash list 查看现场详情
+22. git stash apply 恢复现场，stash内容并不删除，需要git stash drop删除。可以使用git stash apply stash@{0} 恢复指定的stash
+23. git stash pop 恢复的同时把stash内容删了
