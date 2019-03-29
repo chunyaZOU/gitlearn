@@ -25,3 +25,5 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 15. git checkout branchName 切换分支  
 16. git merge branchName 合并指定分支到当前分支
 17. git branch -d branchName 删除指定分支
+18. 合并：当git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+19. git log --graph 查看分支合并图
