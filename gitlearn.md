@@ -41,4 +41,12 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 30. git branch --set-upstream-to=origin/dev dev 指定本地分支与远程分支的链接
 31. git push origin branName 从本地推送分支
 32. git checkout -b branchName origin/branhName  本地创建和远程分支对应的分支
-33. git rebase 可以把本地未push的分叉提交历史整理成直线
+34. git tag tagName 给最新提交打一个标签，标签指向某次提交
+35. git tag 查看标签
+36. git tag tagName commitId 给某次提交打标签
+37. git show tagName 查看标签信息
+38. git tag -a tagName -m 'desc' commitId 创建带有说明的标签 -a 指定标签名 -m指定说明信息
+39. git tag -d tagName 删除标签 一般都在本地不会自动推送到远程
+40. git push origin tagName 推送某个标签到远程
+41. git push origin --tags 一次性推送所有尚未推送到远程的标签
+42. git push origin ：refs/tags/tagName 删除远程标签，需要先从本地删除，再执行此命令
