@@ -37,3 +37,5 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 26. git branch -D branchName 强行删除一个没有合并过的分支
 27. git remote 远程仓库名称
 28. git remote -v 详细信息
+29. git clone git@github.com:chunyaZOU/gitlearn.git 远程克隆仓库，此时本地只能看到master分支，如果想获取dev分支可以用命令：git checkout -b dev origin/dev
+30. git branch --set-upstream-to=origin/dev dev 指定本地分支与远程分支的链接
