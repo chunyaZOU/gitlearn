@@ -41,3 +41,4 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 30. git branch --set-upstream-to=origin/dev dev 指定本地分支与远程分支的链接
 31. git push origin branName 从本地推送分支
 32. git checkout -b branchName origin/branhName  本地创建和远程分支对应的分支
+33. git rebase 可以把本地未push的分叉提交历史整理成直线
