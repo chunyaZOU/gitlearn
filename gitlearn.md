@@ -22,17 +22,18 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 12. git clone xxxxxx 从远程克隆一个仓库
 13. git checkout -b dev 创建并切换分支相当于git branch dev + git checkout dev两条组合
 14. git branch 查看当前分支
-15. git checkout branchName 切换分支  
-16. git merge branchName 合并指定分支到当前分支
-17. git branch -d branchName 删除指定分支
-18. 合并：当git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
-19. git log --graph 查看分支合并图
-20. git merge --no-ff -m "merge with noff" dev noff模式合并noff:no fast forward  
+15. git branch branchName 创建一个分支
+16. git checkout branchName 切换分支  
+17. git merge branchName 合并指定分支到当前分支
+18. git branch -d branchName 删除指定分支
+19. 合并：当git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+20. git log --graph 查看分支合并图
+21. git merge --no-ff -m "merge with noff" dev noff模式合并noff:no fast forward  
 加上--no-ff参数可以使用普通模式合并，合并历史有分支，能看出来曾经做过合并，ff则不能看出做过合并
-21. git stash 把当前工作现场储存起来，等以后恢复现场后继续工作。可以多次stash
-22. git stash list 查看现场详情
-22. git stash apply 恢复现场，stash内容并不删除，需要git stash drop删除。可以使用git stash apply stash@{0} 恢复指定的stash
-23. git stash pop 恢复的同时把stash内容删了
-24. git branch -D branchName 强行删除一个没有合并过的分支
-25. git remote 远程仓库名称
-26. git remote -v 详细信息
+22. git stash 把当前工作现场储存起来，等以后恢复现场后继续工作。可以多次stash
+23. git stash list 查看现场详情
+24. git stash apply 恢复现场，stash内容并不删除，需要git stash drop删除。可以使用git stash apply stash@{0} 恢复指定的stash
+25. git stash pop 恢复的同时把stash内容删了
+26. git branch -D branchName 强行删除一个没有合并过的分支
+27. git remote 远程仓库名称
+28. git remote -v 详细信息
