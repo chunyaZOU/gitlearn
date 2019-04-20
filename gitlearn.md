@@ -50,3 +50,4 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 40. git push origin tagName 推送某个标签到远程
 41. git push origin --tags 一次性推送所有尚未推送到远程的标签
 42. git push origin ：refs/tags/tagName 删除远程标签，需要先从本地删除，再执行此命令
+43. git remote rm origin 删除与远程库的链接
