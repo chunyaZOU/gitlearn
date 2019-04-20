@@ -37,4 +37,8 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 26. git branch -D branchName 强行删除一个没有合并过的分支
 27. git remote 远程仓库名称
 28. git remote -v 详细信息
+<<<<<<< HEAD
 29. 会冲突吗 哈哈哈哈哈哈
+=======
+29. 冲突测试
+>>>>>>> feature1
