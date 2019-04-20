@@ -39,3 +39,5 @@ git remote add origin git@github.com:chunyaZOU/gitlearn.git
 28. git remote -v 详细信息
 29. git clone git@github.com:chunyaZOU/gitlearn.git 远程克隆仓库，此时本地只能看到master分支，如果想获取dev分支可以用命令：git checkout -b dev origin/dev
 30. git branch --set-upstream-to=origin/dev dev 指定本地分支与远程分支的链接
+31. git push origin branName 从本地推送分支
+32. git checkout -b branchName origin/branhName  本地创建和远程分支对应的分支
